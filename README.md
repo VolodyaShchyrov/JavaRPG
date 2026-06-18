@@ -14,5 +14,11 @@ This is a project about rpg game on java.
     - Controller - conntect all of the code parts with each other
 
 
+# Updates
 
+## GUI(View) version 0.0.1
+
+- MenuBar added
+- Status label added
+- Main layout updated
 
