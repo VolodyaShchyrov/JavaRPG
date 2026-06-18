@@ -48,15 +48,15 @@ public class MMOPanelStatsLeyout extends JPanel{
         JPanel buttonsPanel = new JPanel(new GridLayout(2, 1, 10, 0));
 
         JButton attackButton = new JButton("Attack");
-        attackButton.setFont(new Font(Font.SANS_SERIF, Font.BOLD,24));
+        attackButton.setFont(new Font(Font.SANS_SERIF, Font.BOLD,16));
         JButton guardButton = new JButton("Guard");
-        guardButton.setFont(new Font(Font.SANS_SERIF, Font.BOLD,24));
+        guardButton.setFont(new Font(Font.SANS_SERIF, Font.BOLD,16));
 
         attackButton.setBackground(new Color(244,162,97));
         guardButton.setBackground(new Color(244,162,97));
 
-        attackButton.setPreferredSize(new Dimension(100,80));
-        guardButton.setPreferredSize(new Dimension(100,80));
+        attackButton.setPreferredSize(new Dimension(150,20));
+        guardButton.setPreferredSize(new Dimension(150,20));
 
         buttonsPanel.add(attackButton);
         buttonsPanel.add(guardButton);
@@ -64,6 +64,7 @@ public class MMOPanelStatsLeyout extends JPanel{
         buttonsPanel.setOpaque(false);
 
         this.add(buttonsPanel);
+
 
 
 
